@@ -36,7 +36,7 @@ if uploaded_file is not None:
     image = Image.open(uploaded_file)
     
     # Show the uploaded image
-    st.image(image, caption="Uploaded Image", use_column_width=True)
+    st.image(image, caption="Uploaded Image")
 
     # Call the prediction function
     st.write("Processing...")
