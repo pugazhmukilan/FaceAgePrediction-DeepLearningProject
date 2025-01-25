@@ -4,7 +4,7 @@ from PIL import Image
 import io
 
 # Function to load the model and make predictions
-def load_and_predict(image_path, model_path=r"Models\pretrained_final_model.h5"):
+def load_and_predict(image_path, model_path=r"src\Models\pretrained_final_model.h5"):
     # Load the model
     model = tf.keras.models.load_model(model_path)
     
