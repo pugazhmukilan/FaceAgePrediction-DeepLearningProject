@@ -1,4 +1,4 @@
 streamlit==1.41.1
 tensorflow==2.12.0  # or whatever version you're using
 pillow==11.1.0
-numpy==2.2.2
+numpy==1.23.0
