@@ -46,3 +46,5 @@ if uploaded_file is not None:
 
     # Display the result
     st.write(f"The predicted age group for the uploaded image is: {predicted_age}")
+
+
